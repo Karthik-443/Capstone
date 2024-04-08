@@ -1,5 +1,5 @@
 #!/bin/bash
-docker login -u karthikramachandren -p dckr_pat_dw1T98y9tv8FnMIsW2maf6y9l3M
+docker login -u karthikramachandren -p dckr_pat_HfqjPQWNZthTxuMZsAS9mt2Yld4
 # Tag the image with the Docker Hub repository name and version
 if [[ $GIT_BRANCH == 'origin/main' ]]; then
 docker tag project:v1 karthikramachandren/prod
