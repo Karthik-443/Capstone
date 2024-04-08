@@ -5,7 +5,7 @@ if [[ $GIT_BRANCH == 'origin/dev' ]]; then
 docker tag project:v1 karthikramachandren/prod
 docker push karthikramachandren/prod
 # Docker login
-elif [[ $GIT_BRANCH == 'origin/main' ]]; then
+elif [[ $GIT_BRANCH == 'origin/dev' ]]; then
 docker tag project:v1 karthikramachandren/dev
 docker push karthikramachandren/dev
 fi
